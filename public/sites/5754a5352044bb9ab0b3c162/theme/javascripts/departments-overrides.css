@@ -1,0 +1,7 @@
+.body-content {
+  display: none;
+}
+
+.body-content.current {
+  display: block;
+}
