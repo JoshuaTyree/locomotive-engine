@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="142" height="162" viewBox="0 0 142 162">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ebebeb;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="agenda-triangle" class="cls-1" d="M432.4,1613L571,1695.81,430,1774Z" transform="translate(-429.5 -1612.5)"/>
+</svg>

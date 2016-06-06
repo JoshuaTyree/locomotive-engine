@@ -1,0 +1,18 @@
+<svg id="facebook" xmlns="http://www.w3.org/2000/svg" width="27.5" height="27.5" viewBox="0 0 27.5 27.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #585858;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        fill: #585858;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="Rounded_Rectangle_1_copy" data-name="Rounded Rectangle 1 copy" class="cls-1" x="0.75" y="0.75" width="26" height="26" rx="3" ry="3"/>
+  <path id="fa-facebook_copy" data-name="fa-facebook copy" class="cls-2" d="M1532.91,4718.19a3.726,3.726,0,0,0-2.7.97,3.568,3.568,0,0,0-1.01,2.71v2.04h-2.48v2.78h2.48v7.13h2.98v-7.13h2.47l0.38-2.78h-2.85v-1.77a1.514,1.514,0,0,1,.29-1.02,1.479,1.479,0,0,1,1.13-.33h1.53v-2.48a15.771,15.771,0,0,0-2.22-.12h0Z" transform="translate(-1514.25 -4712.25)"/>
+</svg>
