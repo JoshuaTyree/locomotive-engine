@@ -2,7 +2,7 @@ Locomotive.configure do |config|
 
   # enable it if you want Locomotive to render the site of the Rails application embedding the engine
   # config.host = 'mylocomotiveapp.com'
-  # config.host = ENV['SITE_HOST'] unless ENV['SITE_HOST'].blank?
+  config.host = ENV['SITE_HOST'] unless ENV['SITE_HOST'].blank?
 
   # list of forbidden handles for a site because there are in conflicts with internal resources.
   # config.reserved_site_handles = %w(sites my_account password sign_in sign_out)
