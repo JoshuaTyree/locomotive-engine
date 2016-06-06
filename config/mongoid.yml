@@ -136,7 +136,7 @@ test:
 production:
   clients:
     default:
-      database: locomotive_cms_production
+      database: ENV['DATABASE_NAME']
       hosts:
         - localhost:27017
       options:
