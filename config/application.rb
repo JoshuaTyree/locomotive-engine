@@ -28,5 +28,12 @@ module LocomotiveCms
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+
+    config.middleware.insert_before ActionDispatch::Static, 'Rack::Cors', debug: true, logger: (-> { Rails.logger }) do
+      allow do
+        origins '*'
+        resource '/sites/*', headers: :any, methods: :any
+      end
+    end
   end
 end

@@ -22,6 +22,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'foreman', '~> 0.76.0'
 gem 'locomotivecms', '~> 3.1.0'
+gem 'rack-cors', require: 'rack/cors'
 
 
 group :development, :test do
