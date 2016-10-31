@@ -32,7 +32,7 @@ module LocomotiveCms
     config.middleware.insert_before ActionDispatch::Static, 'Rack::Cors', debug: true, logger: (-> { Rails.logger }) do
       allow do
         origins '*'
-        resource '/sites/*', headers: :any, methods: :any
+        resource '*', headers: :any, methods: :any
       end
     end
   end
