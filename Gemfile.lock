@@ -294,6 +294,7 @@ GEM
     orm_adapter (0.5.0)
     pony (1.11)
       mail (>= 2.0)
+    puma (3.9.1)
     pundit (1.1.0)
       activesupport (>= 3.0.0)
     rack (1.6.5)
@@ -413,6 +414,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   locomotivecms (~> 3.2.0)
+  puma
   rack-cors
   rails (= 4.2.6)
   sass-rails (~> 5.0)
@@ -423,4 +425,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.12.5
+   1.15.1

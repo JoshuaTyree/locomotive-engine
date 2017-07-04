@@ -13,6 +13,7 @@ gem 'rack-cors', require: 'rack/cors'
 gem 'carrierwave-aws'
 gem 'locomotivecms', '~> 3.2.0'
 gem 'foreman', '~> 0.76.0'
+gem 'puma'
 
 group :development, :test do
   gem 'byebug'
