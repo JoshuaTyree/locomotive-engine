@@ -10,19 +10,9 @@ Dragonfly.app(:engine).configure do
 
   url_format '/images/dynamic/:job/:sha/:basename.:ext'
 
-  if ENV['S3_ASSET_HOST_URL'].present? && !ENV['S3_ASSET_HOST_URL'].blank?
-    url_host ENV['S3_ASSET_HOST_URL']
-  end
-
   fetch_file_whitelist /public/
 
   fetch_url_whitelist /.+/
-end
-
-Dragonfly.app(:steam).configure do
-  if ENV['S3_ASSET_HOST_URL'].present? && !ENV['S3_ASSET_HOST_URL'].blank?
-    url_host ENV['S3_ASSET_HOST_URL']
-  end
 end
 
 # Logger
