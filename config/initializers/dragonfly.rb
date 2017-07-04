@@ -19,4 +19,4 @@ end
 Dragonfly.logger = Rails.logger
 
 # Mount as middleware
-Rails.application.middleware.use Dragonfly::Middleware, :engine
+# Rails.application.middleware.use Dragonfly::Middleware, :engine
