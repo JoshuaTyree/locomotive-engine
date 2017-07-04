@@ -7,6 +7,7 @@ CarrierWave.configure do |config|
   # More information here: https://github.com/sorentwo/carrierwave-aws
 
   if ENV['S3_KEY_ID'].present?
+    puts "Debug: Loading with S3"
     config.storage          = :aws
     config.aws_bucket       = ENV['S3_BUCKET']
     config.aws_acl          = 'public-read'
@@ -19,6 +20,7 @@ CarrierWave.configure do |config|
 
     # Put your CDN host below instead
     if ENV['S3_ASSET_HOST_URL'].present?
+      puts "Debug: Loading with CloudFront"
       config.asset_host = ENV['S3_ASSET_HOST_URL']
     end
   else
