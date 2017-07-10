@@ -19,7 +19,7 @@ CarrierWave.configure do |config|
     }
 
     config.aws_attributes = {
-      expires: 1.week.from_now.httpdate,
+      expires: 1.years.from_now.httpdate,
       cache_control: 'max-age=604800'
     }
 
