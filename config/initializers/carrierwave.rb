@@ -18,6 +18,11 @@ CarrierWave.configure do |config|
       region:             ENV['S3_BUCKET_REGION']
     }
 
+    config.aws_attributes = {
+      expires: 1.week.from_now.httpdate,
+      cache_control: 'max-age=604800'
+    }
+
     # Put your CDN host below instead
     if ENV['S3_ASSET_HOST_URL'].present?
       puts "Debug: Loading with CloudFront"
