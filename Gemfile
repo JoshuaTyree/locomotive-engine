@@ -11,9 +11,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'rack-cors', require: 'rack/cors'
 gem 'carrierwave-aws'
-gem 'locomotivecms', '~> 3.2.0'
+gem 'locomotivecms', '~> 3.1.2'
 gem 'foreman', '~> 0.76.0'
 gem 'puma'
+gem 'locomotivecms-search', require: 'locomotive/search/mongoid'
 
 group :development, :test do
   gem 'byebug'
