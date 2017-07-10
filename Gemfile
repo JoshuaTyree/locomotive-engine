@@ -14,7 +14,6 @@ gem 'carrierwave-aws'
 gem 'locomotivecms', '~> 3.1.2'
 gem 'foreman', '~> 0.76.0'
 gem 'puma'
-gem 'locomotivecms-search', require: 'locomotive/search/mongoid'
 
 group :development, :test do
   gem 'byebug'
